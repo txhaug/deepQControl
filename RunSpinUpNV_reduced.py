@@ -5,9 +5,10 @@ Created on Tue Jul 23 11:38:37 2019
 
 @author: Tobias Haug (tobias.haug@u.nus.edu)
 
-Quantum control of NV centers with driving, optimization using PPO
+Quantum control of NV centers with driving, optimization using PPO (Proximal policy optimisation) with deep reinforement learning.
+This program generates protocols for all target states on the Bloch-sphere within in one run.
 
-Instructions for code are found below at instructions around line 404
+Instructions for code are found below at around line 404
 """
 
 activateSpinningup=1
@@ -837,11 +838,7 @@ elif(randomParamType!=0):
 env.customLog=customLog
 print(maxfidellist)
 
-#Save to file
-if(optimizer==0):
-    outfile=open( output_dir+"/"+"LogNew"+dataset+".pcl", "wb" )
-    pickle.dump([loggerlist[0],[maxfidellist,maxomegalist,maxtimelist,averagelist],res], outfile)
-    outfile.close()
+
 
 if(env.totalsteps==2 and env.action_spaceLength==1):#Plot for two level system only
     thetalist,philist,finalrewardlist,finalpenaltylist,finalactionlist,actualparamlist=res
