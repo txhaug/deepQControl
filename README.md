@@ -4,6 +4,7 @@ Deep reinforcement learning program to generate arbitary quantum states. It is a
 Prerequisites:
 - Anaconda with Python 3.6 is recommended
 - OpenAi spinningup https://spinningup.openai.com/ (follow instructions there to install)
+- gym
 - matplotlib
 - Qutip (http://qutip.org/) to simulate quantum systems
 - scipy
