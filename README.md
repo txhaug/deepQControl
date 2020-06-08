@@ -1,4 +1,5 @@
-Deep reinforcement learning program to generate arbitary quantum states. It is able to learn all driving protocols to generate arbitrary states on a 2D Bloch sphere, embedded in a higher dimensional Hilbertspace. The amazing feature is that it produces all the driving protocols (over a continous Bloch sphere) for all possible target states in a single run of the program. The learning is performed on all target states at the same time. Based on spinning Up AI deep learning with PPO, implemented in Tensorflow.
+Deep reinforcement learning program to generate arbitary quantum states. This program has been used for "Engineering quantum current states with machine learning" (https://arxiv.org/abs/1911.09578).
+It is able to learn all driving protocols to generate arbitrary states on a 2D Bloch sphere, embedded in a higher dimensional Hilbertspace. The amazing feature is that it produces all the driving protocols (over a continous Bloch sphere) for all possible target states in a single run of the program. The learning is performed on all target states at the same time. Based on spinning Up AI deep learning with PPO, implemented in Tensorflow.
 
 
 Prerequisites:
