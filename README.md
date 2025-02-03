@@ -7,7 +7,7 @@ Prerequisites:
 - OpenAi spinningup https://spinningup.openai.com/ (follow instructions there to install)
 - gym
 - matplotlib
-- Qutip (http://qutip.org/) to simulate quantum systems
+- Qutip (http://qutip.org/) NOTE: Requires older version of qutip, namely <=4.7.5, install via "pip install qutip==4.7.5"
 - scipy
 
 Execute the main file RunSpinUpNV_reduced.py. Various parameters can be configures in the main file, at around line 404. You can choose from 3 pre-defined templates using the variable predefinedTemplates (line 414 in RunSpinUpNV_reduced.py) that reproduce the main results from the publication.
